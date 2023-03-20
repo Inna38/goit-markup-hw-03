@@ -236,10 +236,13 @@ img {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: var(--columns-gap);
   margin-top: var(--columns-gap);
-}
+ }
 
 .main-item-bottom {
   padding: 20px 24px;
+   border-left: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
+   border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
