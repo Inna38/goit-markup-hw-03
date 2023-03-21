@@ -127,16 +127,17 @@ img {
 
 /* -----about----- */
 
-/* .about{
- background-color: var(--primary-background); 
-} */
+.about{
+ /* background-color: var(--primary-background);  */
+ padding-bottom: 94px;
+} 
 
 .about-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--columns-gap));
   margin-top: calc(-1 * var(--columns-gap));
-  padding-bottom: 94px;
+  
 }
 
 .about-list-item {
@@ -168,7 +169,8 @@ img {
 
 .team-item-bottom {
   text-align: center;
-  padding: 30px 60px;
+  padding: 30px;
+  background-color: #FFFFFF;
 }
 
 .team-title {
@@ -188,17 +190,18 @@ img {
 
 /* ---header---- */
 .header-portfolio {
-  border-bottom: 1px solid #ececec;
+  
 }
 
 /* ---main---- */
 .main-btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
-.main-btn-list:not(:last-child) {
+
+.main-btn-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -267,7 +270,7 @@ img {
 
 .studio-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -291,21 +294,24 @@ img {
 }
 
 /* -------------header---------------- */
+.header{
+ border-bottom: 1px solid #ececec;
+}
+
+
 .header-container {
   display: flex;
   align-items: center;
 }
 
-.nav-list-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  cursor: pointer;
-}
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -323,9 +329,6 @@ img {
 
 .header-left {
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  cursor: pointer;
 }
 
 .header-list-item:not(:last-child) {
@@ -333,6 +336,9 @@ img {
 }
 
 .header-contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -355,7 +361,7 @@ img {
 }
 
 .footer-item:not(:last-child) {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .address {
